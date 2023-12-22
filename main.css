@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 17px;
+    box-sizing: border-box;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #myVideo {
+      position:relative;
+    right: 0;
+    opacity: 0.6;
+    width: 100%; 
+  }
+  .content {
+  position: absolute;
+  bottom: 0;
+  top: 400px;
+  line-height: 1em;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content h3{
+    font-size: 30px;
+    padding-left: 10%;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h1{
+    padding-left: 10%;
+}
+span{
+    color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000px;
+    font-size: 50px;
+}
+  /* }
+  .navbar{
+      background-color: transparent;
+       background: rgba(0, 0, 0, 0.5);
+       border-radius: 30px;
+      
+       padding-left: 10%;
+  
+            
+  } */
+  /* .navbar ul{
+              overflow: auto;
+          }
+          .navbar li{
+              float:left;
+              list-style: none; 
+              margin: 15px 20px;
+              
+              
+          }
+          
+          .navbar li a{
+              padding: 2px 30px;
+              text-decoration: none;
+              
+              color: white;
+          }
+          .navbar li a:hover{
+              color:darkgoldenrod;
+          }
+          .search{
+              float: right;
+              color: black;
+              padding: 15px 300px;
+          }
+          .navbar input{
+              border: 2px solid black;
+              border-radius: 14px;
+              padding: 3px 17px;
+              width: 200px;
+          } */
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color:burlywood;
+}
+header{
+    position: relative;
+    padding: rem;
+   
+    background-color: aliceblue;
+}
+.navbar{
+    width:100%;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-weight: 900;
+}
+.navbar .log a{
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+img{
+   cursor: pointer;
+   
+}
+.log{
+    /* size:20% ; */
+    position: absolute;
+    cursor: pointer;
+}
+
+  .home{
+    padding: 0.5%;
+    text-align: center;
+    line-height: 1em;
+  }
+  .home h1{
+    color: rgb(237, 165, 71);
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .home h4{
+    color:rgb(169,169,169);
+    font-weight:normal;
+  }
+  .hom{
+    padding: 0.5%;
+    text-align: center;
+    line-height: 1em;
+   
+  }
+  .hom h1{
+    color: rgb(198, 237, 243);
+    font-size: 30px;
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  /* .hom h4{
+    color:rgb(169,169,169);
+    font-weight:normal;
+  } */
+  div.scroll-container {
+    background-color: transparent;
+    overflow:auto;
+    white-space: nowrap;
+   align-items: center;
+    /* padding: 10px; */
+    padding-left: 10%;
+    size: 10%;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    /* padding-left: 10%; */
+    margin: 10px;
+    /* scroll-snap-align: center; */
+    border-radius: 20px;
+    /* border-color: black;
+    border: 2px solid black; */
+    
+  }
+  .cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+  }
+  .scroll-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+  }
+  .scroll-image img{
+    opacity: 0.7; 
+  }
+  .scroll-image img:hover{
+    opacity: 1;
+  }
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+  * {
+    font-family: Open Sans;
+  }
+  
+  /* section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  } */
+  
+  .footer-distributed{
+    background:burlywood;
+    /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:40;
+    /* vertical-align: middle; */
+    /* margin:0; */
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+.footer-distributed .footer-left .logi img{
+  width: 220px;
+  height: 100px;
+
+}
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
